@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <title>Explorando a casa abandonada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você estava andando nas ruas, quando você encontra uma casa assombrada, você decide entrar e explorar a casa, o que você fara primeiro?</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a sala</button>
+            <button class="btn-proximo" data-proximo="2">Explorar o corredor</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.png" alt="imagem explorando a sala"
+            <p>Você decide explorar a sala, você encontra muita poeira, e uma fogueira! Você tem fósforos, você quer acender?</p>
+            <button class="btn-proximo" data-proximo="3">Sim</button>
+            <button class="btn-proximo" data-proximo="4">Não</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.png" alt="imagem explorando o corredor"
+            <p>No corredor você encontra uma sala com escadas para o segundo andar, o que vc prefere?</p>
+            <button class="btn-proximo" data-proximo="5">Subir</button>
+            <button class="btn-proximo" data-proximo="6">Ir embora</button>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
